@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	</head>
 	<body>
+	</div>
 	<div class= "title";>"Lords of the Loom": Politically Divided but Economically Unified</div>
 	<style>
 		    .title {
@@ -17,13 +18,13 @@
 	</style>
 			<p>
 				<div class = "menu" id="staticmenu">
-				<a href = "https://www.quora.com/profile/Jake-Rong">
+				<a href =  "javascript:openwindow = open('https://www.quora.com/profile/Jake-Rong');">
 				<img src = "quora.png"></a>
-				<a href = "https://www.linkedin.com/in/jake-r-b83b62128/">
+				<a href = "javascript:openwindow = open('https://www.linkedin.com/in/jake-r-b83b62128/');">
 				<img src = "linkedin.png"></a>
-				<a href = "https://twitter.com/jakejrong">
+				<a href = "javascript:openwindow = open('https://twitter.com/jakejrong');">
 				<img src = "twitter.png"></a>
-				<a href = "https://www.instagram.com/jakerong/">
+				<a href = "javascript:openwindow = open('https://www.instagram.com/jakerong/');">
 			    <img src = "instagram.png"></a>
 				</ul>
 				<style>	
@@ -33,17 +34,8 @@
 					left:0%;
 				    width: 100px; 
 					opacity: .4;
-					}
-					.menu a{
-					text-align: center;
-					line-height: 2;
-					background-color: #EEEEEE;
-					color: black;
-					padding: 2px 6px 2px 6px;
-					border-top: 1px solid #CCCCCC;
-					border-right: 1px solid #333333;
-					border-bottom: 1px solid #333333;
-					border-left: 1px solid #CCCCCC;
+					padding: 5px;
+					border-radius: 8px;
 					}
 				</style>
 				<p>
@@ -163,13 +155,3 @@ not the sacrifice of war.”</p>
 	
 <body>
 </html>
-				<script language ="Javascript" type="text/Javascript">
-			    function makestatic(menu)
-					{
-					if document.all
-					document.all(menu).style.left = document.body.scrollLeft + xoff;
-					document.all(menu).style.top = document.body.scrollTop + yoff;
-				}
-					</script>
-				    <body onload="setInterval('makeStatic(\'staticmenu\')',30)">
-				    <layer class="menu" name="staticmenu">
